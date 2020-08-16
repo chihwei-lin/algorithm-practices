@@ -49,5 +49,10 @@ public class MyArrayListTest {
         // clear()
         myal.clear();;
         System.out.println("ArrayList: " + myal.toString());
+
+        // foreach()
+        for(String a:myal){
+            System.out.println(a);
+        }
     }
 }
